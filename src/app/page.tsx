@@ -164,7 +164,7 @@ export default function Home() {
             <FadeIn delay={0.1}>
               <div className="bg-white/60 p-8 rounded-2xl">
                 <p className="text-3xl text-text-primary mb-2">£20</p>
-                <p className="text-text-secondary">40 minute session</p>
+                <p className="text-text-secondary">45 minute session</p>
               </div>
             </FadeIn>
             <FadeIn delay={0.2}>
@@ -206,13 +206,16 @@ export default function Home() {
                 <p className="text-xl text-text-primary">
                   Wadebridge & surrounding villages
                 </p>
+                <p className="text-sm text-text-secondary mt-1">
+                  By arrangement
+                </p>
               </div>
             </div>
           </FadeIn>
           <FadeIn delay={0.3}>
             <div className="rounded-2xl overflow-hidden shadow-lg">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20624.77847366!2d-4.853!3d50.517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486b13a3c5c9e5c7%3A0x9a5c26c7c0e9c8e5!2sWadebridge%2C%20UK!5e0!3m2!1sen!2suk!4v1702570000000!5m2!1sen!2suk"
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2580!2d-4.838804!3d50.508356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTDCsDMwJzMwLjEiTiA0wrA1MCcxOS43Ilc!5e0!3m2!1sen!2suk!4v1702570000000!5m2!1sen!2suk"
                 width="100%"
                 height="400"
                 style={{ border: 0 }}
