@@ -169,7 +169,7 @@ export default function Home() {
             </FadeIn>
             <FadeIn delay={0.2}>
               <div className="bg-white/60 p-8 rounded-2xl">
-                <p className="text-3xl text-text-primary mb-2">£40</p>
+                <p className="text-3xl text-text-primary mb-2">£30</p>
                 <p className="text-text-secondary">1 hour 30 minute session</p>
               </div>
             </FadeIn>
