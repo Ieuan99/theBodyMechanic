@@ -1,26 +1,55 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Pastel Color Palette */
+  --pastel-cream: #FDF6F0;
+  --pastel-blush: #FADADD;
+  --pastel-sage: #C5D5CB;
+  --pastel-lavender: #E6E6FA;
+  --pastel-peach: #FFDAB9;
+  --pastel-mint: #C8E6C9;
+
+  /* Text Colors */
+  --text-primary: #3D3D3D;
+  --text-secondary: #6B6B6B;
+  --text-accent: #7B6B8D;
+
+  /* Background */
+  --background: var(--pastel-cream);
+  --foreground: var(--text-primary);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-pastel-cream: var(--pastel-cream);
+  --color-pastel-blush: var(--pastel-blush);
+  --color-pastel-sage: var(--pastel-sage);
+  --color-pastel-lavender: var(--pastel-lavender);
+  --color-pastel-peach: var(--pastel-peach);
+  --color-pastel-mint: var(--pastel-mint);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-accent: var(--text-accent);
+  --font-sans: "Georgia", serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Georgia", serif;
+  line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  letter-spacing: 0.02em;
 }
