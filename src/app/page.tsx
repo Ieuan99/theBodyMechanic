@@ -13,9 +13,9 @@ export default function Home() {
             <Image
               src="/theBodyMechanicLogoMain.svg"
               alt="The Body Mechanic"
-              width={60}
-              height={60}
-              className="h-12 w-12 md:h-14 md:w-14"
+              width={120}
+              height={120}
+              className="h-24 w-24"
             />
           </a>
           <div className="hidden md:flex gap-8">
