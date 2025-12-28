@@ -15,25 +15,25 @@ export default function Home() {
               alt="The Body Mechanic"
               width={120}
               height={120}
-              className="h-24 w-24"
+              className="h-24 w-24 md:h-32 md:w-32"
             />
           </a>
           <div className="hidden md:flex gap-8">
             <a
               href="#about"
-              className="text-text-secondary hover:text-text-primary transition-colors"
+              className="text-text-secondary hover:text-text-primary transition-colors lg:text-xl"
             >
               About
             </a>
             <a
               href="#services"
-              className="text-text-secondary hover:text-text-primary transition-colors"
+              className="text-text-secondary hover:text-text-primary transition-colors lg:text-xl"
             >
               Services
             </a>
             <a
               href="#contact"
-              className="text-text-secondary hover:text-text-primary transition-colors"
+              className="text-text-secondary hover:text-text-primary transition-colors lg:text-xl"
             >
               Contact
             </a>
