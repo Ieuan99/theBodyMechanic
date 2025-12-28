@@ -97,6 +97,36 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Gallery Section */}
+      <section className="py-24 px-6">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-8">
+            <FadeIn delay={0.1}>
+              <div className="rounded-2xl overflow-hidden shadow-lg">
+                <Image
+                  src="/images/IMG_4192.jpg"
+                  alt="Professional massage therapy session"
+                  width={600}
+                  height={400}
+                  className="w-full h-64 md:h-80 object-cover"
+                />
+              </div>
+            </FadeIn>
+            <FadeIn delay={0.2}>
+              <div className="rounded-2xl overflow-hidden shadow-lg">
+                <Image
+                  src="/images/IMG_4319.jpg"
+                  alt="The Body Mechanic treatment room"
+                  width={600}
+                  height={400}
+                  className="w-full h-64 md:h-80 object-cover"
+                />
+              </div>
+            </FadeIn>
+          </div>
+        </div>
+      </section>
+
       {/* Services Section */}
       <section id="services" className="py-24 px-6">
         <div className="max-w-6xl mx-auto">
@@ -240,7 +270,7 @@ export default function Home() {
           <FadeIn delay={0.1}>
             <div className="flex justify-center gap-6 mb-12">
               <a
-                href="tel:07717756760"
+                href="tel:07759332532"
                 className="p-5 bg-pastel-blush/30 rounded-full hover:bg-pastel-blush/50 transition-all hover:scale-110"
                 aria-label="Call us"
               >
