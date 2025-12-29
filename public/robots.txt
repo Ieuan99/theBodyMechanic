@@ -1,0 +1,6 @@
+# robots.txt for The Body Mechanic
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://thebodymechanictherapy.co.uk/sitemap.xml
