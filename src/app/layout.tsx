@@ -19,14 +19,14 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "The Body Mechanic" }],
   creator: "The Body Mechanic",
-  metadataBase: new URL("https://thebodymechanictherapy.co.uk"),
+  metadataBase: new URL("https://www.thebodymechanictherapy.co.uk"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     type: "website",
     locale: "en_GB",
-    url: "https://thebodymechanictherapy.co.uk",
+    url: "https://www.thebodymechanictherapy.co.uk",
     siteName: "The Body Mechanic",
     title: "The Body Mechanic | Sports Massage Therapy in Wadebridge, Cornwall",
     description:
@@ -72,9 +72,9 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "HealthAndBeautyBusiness",
   name: "The Body Mechanic",
-  image: "https://thebodymechanictherapy.co.uk/images/IMG_4192.jpg",
-  "@id": "https://thebodymechanictherapy.co.uk",
-  url: "https://thebodymechanictherapy.co.uk",
+  image: "https://www.thebodymechanictherapy.co.uk/images/IMG_4192.jpg",
+  "@id": "https://www.thebodymechanictherapy.co.uk",
+  url: "https://www.thebodymechanictherapy.co.uk",
   telephone: "07759332532",
   email: "Thebodymechanictherapy@gmail.com",
   address: {
